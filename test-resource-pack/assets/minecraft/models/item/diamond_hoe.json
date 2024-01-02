@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_hoe"
+	},
+	"overrides": [
+		{ "predicate": { "damage": 0 }, "model": "item/diamond_hoe" },
+		{ "predicate": { "damaged": 0, "damage": 0.000640614990391 }, "model": "item/your_custom_item" },
+		{ "predicate": { "damaged": 1 }, "model": "item/diamond_hoe" }
+	]
+}
